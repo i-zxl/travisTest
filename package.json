@@ -1,0 +1,33 @@
+{
+  "name": "zxl-cli",
+  "version": "0.0.1",
+  "description": "`npm install zxl-cli`",
+  "main": "index.js",
+  "preferGlobal": "true",
+  "bin": {
+    "zxl-cli": "bin/index"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "download-git-repo": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "request": "^2.81.0"
+  },
+  "scripts": {
+    "ci-test": "npm run test",
+    "test": "mocha --delay test/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-zxl/travisTest.git"
+  },
+  "author": "wusen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-zxl/travisTest/issues"
+  },
+  "homepage": "https://github.com/i-zxl/travisTest#readme"
+}

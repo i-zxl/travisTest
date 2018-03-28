@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - 6.9.1
+beforescript:
+  - npm i pm2 -g
+script:
+  - npm run ci-test
+after_script:
+  - pm2 kill
