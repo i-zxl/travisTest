@@ -5,7 +5,7 @@
   "main": "index.js",
   "preferGlobal": "true",
   "bin": {
-    "zxl-cli": "bin/index"
+    "init": "bin/index"
   },
   "dependencies": {
     "colors": "^1.1.2",

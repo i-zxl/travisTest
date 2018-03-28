@@ -1,13 +1,11 @@
-var start = require('../lib/index');
+#!/usr/bin/env node
 
-var args = [].slice.call(process.argv, 2);
+const start = require('../lib/index');
 
+let args = [].slice.call(process.argv, 2);
 if (args.length === 0) {
-  console.log('missing arguments: zxl-cli ${projectName}');
+  console.log('missing projectName: ${projectName}');
   return process.exit();
 }
-var projectName = args[0];
-
-console.log(projectName)
-
+let projectName = args[0];
 start(projectName)
