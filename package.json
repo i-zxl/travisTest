@@ -18,7 +18,7 @@
   },
   "scripts": {
     "ci-test": "npm run test",
-    "test": "mocha --delay test/start.js"
+    "test": "mocha --delay test/index.js"
   },
   "repository": {
     "type": "git",
